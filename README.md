@@ -42,7 +42,7 @@ Python library for digesting Persian text.
 [('ما', 'PRO'), ('بسیار', 'ADV'), ('کتاب', 'N'), ('می‌خوانیم', 'V')]
 
 >>> chunker = Chunker(model='resources/chunker.model')
->>> tagged = tagger.tag(word_tokenize('کتاب خواندن را دوست داریم'))
+>>> tagged = tagger.tag(word_tokenize('مشهد شهر خوبی است'))
 >>> tree2brackets(chunker.parse(tagged))
 '[کتاب خواندن NP] [را POSTP] [دوست داریم VP]'
 
